@@ -1,0 +1,73 @@
+/* Normalise */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Colors */
+:root{
+    --1st:#FC4F00;
+    --2nd:#F79540;
+    --3rd:#8B1874;
+    --4th:#B71375;
+    --5th:#0A4D68;
+    --6th:#088395;
+    --7th:#4E6E81;
+    --7th80:#4e6e81bb; 
+    --black:#000000;
+    
+    
+}
+/* Fonts Name
+font-family: 'Bruno Ace SC', cursive;
+font-family: 'Press Start 2P', cursive;
+font-family: 'Sedgwick Ave Display', cursive;
+font-family: 'Sigmar', cursive;
+
+*/
+body{
+    background-color: var(--5th);
+    background-image: url(https://itepcito.s3.amazonaws.com/wp-content/uploads/2018/09/WhatsApp-Image-2022-12-14-at-08.38.52.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: 1;
+
+}
+header{
+    display: inline;
+}
+.link{
+    text-decoration: none;
+}
+.divtit{
+    text-align: center;
+    padding: 20vh;
+    width: 90vw;
+    margin-left: 5vw;
+    margin-top: 10vh;
+    background-color: var(--7th);
+    border-radius: 20px;
+    opacity: 80%;
+    animation-name: titulo;
+    animation-duration: 3s;
+    border: var(--1st) double 10px;
+}
+.divtit:hover{
+    transform: scale(1.1);
+    opacity: 100%;;
+    
+}
+.tit{
+    font-family: 'Sedgwick Ave Display';
+    color: var(--1st);
+    font-size: 5em;
+    font-weight: 10px;
+    text-shadow: var(--black) -3px 3px 5px;
+}
+@keyframes titulo{
+    0%{
+        transform: translateY(-500px);
+    }
+}
+

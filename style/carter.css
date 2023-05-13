@@ -1,0 +1,92 @@
+/* Normalise */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Colors */
+:root{
+    --1st:#FC4F00;
+    --1st80:#fc5000bc;
+    --2nd:#F79540;
+    --3rd:#8B1874;
+    --4th:#B71375;
+    --5th:#0A4D68;
+    --5th80:#0a4d68b8;
+    --6th:#088395;
+    --7th:#4E6E81;
+    --7th80:#4e6e81bb; 
+    --8th80:#b2b2b2bd;
+    --9th:#0C134F;
+    --9th80:#0c134fbd;
+    --black:#000000;
+    --white:#F0F0F0;
+/* Fonts */
+--titulo:#'Press Start 2P';
+--txtart:#'Sigmar';
+--titart:#'Sedgwick Ave Display';
+
+}
+/* Fonts Name
+font-family: 'Bruno Ace SC', cursive;
+font-family: 'Press Start 2P', cursive;
+font-family: 'Sedgwick Ave Display', cursive;
+font-family: 'Sigmar', cursive;
+*/
+
+body{
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: var(--5th80);
+    background-image: url(https://i.pinimg.com/originals/ae/af/80/aeaf80d8a85b9849df96774ad2614b0b.jpg);
+}
+header{
+    border-radius: 20px;
+    background-color:var(--1st80) ;
+    border: var(--white) double 15px;
+    margin: 5vh 5vw;
+    padding: 7.5%;
+    animation: titulo;
+    animation-duration: 3s;
+
+}
+.titulo{
+    font-family: 'Press Start 2P';
+    text-align: center;
+    font-size: 5rem;
+    text-shadow: var(--white) -3px 3px 7.5px;
+    
+}
+@keyframes titulo{
+    0%{
+        transform: translateX(200vw);
+    }
+}
+/* Block list */
+.block{
+    background-color: var(--9th80);
+    border-radius: 20px;
+    padding: 3%;
+    margin: 5vh 5vw;
+    border: var(--1st) double 10px;
+}
+
+.titart{
+    font-family:'Sedgwick Ave Display' ;
+    text-shadow: var(--black) -5px 5px 10px;
+    text-align: center;
+    color: var(--white);
+    font-size: 3rem;
+
+}
+.txtart{
+    font-family: 'Sigmar';
+    color: var(--white);
+    text-shadow: var(--black) -5px 5px 10px;
+}
+.litit{
+    font-family: 'Sigmar';
+    color: var(--white);
+    text-shadow: var(--black) -5px 5px 10px;
+}

@@ -1,0 +1,142 @@
+/* Normalise */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Colors */
+:root{
+    --1st:#FC4F00;
+    --2nd:#F79540;
+    --3rd:#8B1874;
+    --4th:#B71375;
+    --5th:#0A4D68;
+    --5th80:#0a4d68b8;
+    --6th:#088395;
+    --7th:#4E6E81;
+    --7th80:#4e6e81bb; 
+    --8th80:#b2b2b2bd; 
+    --black:#000000;
+    --white:#F0F0F0;
+
+
+    
+    
+}
+/* Fonts Name
+font-family: 'Bruno Ace SC', cursive;
+font-family: 'Press Start 2P', cursive;
+font-family: 'Sedgwick Ave Display', cursive;
+font-family: 'Sigmar', cursive;
+
+*/
+
+body{
+    background-image: url(https://itepcito.s3.amazonaws.com/wp-content/uploads/2018/09/WhatsApp-Image-2022-12-14-at-08.38.52.jpeg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: var(--5th80);
+    
+}
+/* .alldiv{
+    background-color: var(--5th80);
+    height: 100vh;
+    width: 98.891vw;
+    margin: 0;
+    display: block;
+} */
+.divtit{
+    text-align: center;
+    background-color:var(--5th80) ;
+    border-radius: 20px;
+    margin: 3vh 5vw;
+    padding: 2vh 0vw;
+    border: var(--1st) double 10px ;
+
+}
+.tit{
+    text-align: center;
+    margin: 5vh 0vw;
+    font-family: 'Sedgwick Ave Display';
+    color: var(--white);
+    font-size: 5em;
+    font-weight: 10px;
+    text-shadow: var(--black) -3px 3px 5px;
+}
+.divtxt{
+    background-color: var(--5th80);
+    border-radius: 20px;
+    border: var(--1st) double 5px;
+    padding: 5vh;
+    margin: 5vh 5vw;
+}
+.centertxt{
+    text-align: center;
+    font-size: 2rem;
+    font-family:'Sigmar' ;
+    text-shadow: var(--black) -2px 2px 5px;
+    color: var(--white);
+}
+
+.txt{
+    font-family:'Sigmar' ;
+    text-shadow: var(--black) -2px 2px 5px;
+    color: var(--white);
+    font-size: 1.2rem;
+}
+.flexbox{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    margin-bottom: 40vh;
+}
+.img{
+    display: block;
+    /* margin: 5vh 5vw; */
+    width: 18.75vw;
+    height: 18.75vw;
+    background-color: var(--3rd);
+    text-align: center; 
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+.txtimg{
+    font-family:'Sigmar' ;
+    text-shadow: var(--black) -2px 2px 5px;
+    color: var(--white);
+    font-size: 1.9rem;
+    display: inline;
+}
+.div1{
+    background-image: url(https://p.turbosquid.com/ts-thumb/VJ/XssUh1/RWlPZfVb/block1/jpg/1371833893/600x600/fit_q87/ab1114e8fb7ee05dd0a702be1a5bf610db3d0106/block1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.div2{
+    background-image: url(https://argentina.agrofystatic.com/media/catalog/product/cache/1/image/850x600/0dc2d03fe217f8c83829496872af24a0/T/a/Tapa-Para-Cilindro-Fiat-600-agrofy-0-20210419140638.jpg?usewebp=true);
+    background-position: center;
+    background-size: cover;
+}
+.div3{
+    background-image: url(https://media.euromotor.com.co/10001-large_default/carter-de-motor-volkswagen-bora-tiguan-audi-a3-seat-leon-.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.div4{
+    background-image: url(https://http2.mlstatic.com/D_770428-MLC40418104554_012020-O.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.box{
+    text-align: center;
+    /* background-color: var(--1st); */
+    width: 18.75vw;
+}
+.box:hover{
+    transform: scale(1.1);
+}
+a{
+    text-decoration: none;
+}
